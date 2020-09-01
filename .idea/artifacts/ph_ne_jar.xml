@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ph_ne:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ph_ne_jar</output-path>
+    <root id="archive" name="ph_ne.jar">
+      <element id="module-output" name="ph_ne" />
+      <element id="extracted-dir" path="F:/Downloads/iText7 Jars/io-7.1.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/Downloads/iText7 Jars/kernel-7.1.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/Downloads/iText7 Jars/layout-7.1.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/Downloads/iText7 Jars/forms-7.1.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/Downloads/iText7 Jars/pdftest-7.1.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/Downloads/iText7 Jars/svg-7.1.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/Downloads/slf4j-log4j12-1.7.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/Downloads/slf4j-simple-1.7.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

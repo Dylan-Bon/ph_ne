@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="UI.AddSupplier">
+  <grid id="27dc6" binding="addSupplierPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="570" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="2a499" binding="topBar" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="9a71a" class="javax.swing.JLabel" binding="lblIcon">
+            <constraints border-constraint="West"/>
+            <properties>
+              <icon value="Interface/Img/logo light.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="13d06" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="East"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="8dc9" class="javax.swing.JButton" binding="btnBack">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <borderPainted value="true"/>
+                  <enabled value="true"/>
+                  <hideActionText value="false"/>
+                  <icon value="Interface/Img/Icons/BackScaled.png"/>
+                  <opaque value="true"/>
+                  <text value=""/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+              <component id="705b8" class="javax.swing.JButton" binding="btnLayout">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <icon value="Interface/Img/Icons/eye.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="55f8b" class="javax.swing.JButton" binding="btnHome">
+                <constraints border-constraint="East"/>
+                <properties>
+                  <icon value="Interface/Img/Icons/Home - Black.png"/>
+                  <opaque value="true"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="c0b75" layout-manager="GridBagLayout">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="2e6ac" class="javax.swing.JLabel" binding="lblName">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="2"/>
+              <text value="Supplier Name: "/>
+            </properties>
+          </component>
+          <component id="ceb7a" class="javax.swing.JLabel" binding="lblFLineAddress">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="2"/>
+              <text value="First Line of Address: "/>
+            </properties>
+          </component>
+          <component id="7d22c" class="javax.swing.JLabel" binding="lblSLineAddress">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="2"/>
+              <text value="Second Line of Address: "/>
+            </properties>
+          </component>
+          <component id="294a" class="javax.swing.JLabel" binding="lblPostcode">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="2"/>
+              <text value="Postcode: "/>
+            </properties>
+          </component>
+          <component id="94198" class="javax.swing.JLabel" binding="lblContact">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="2"/>
+              <text value="Contact Number: "/>
+            </properties>
+          </component>
+          <component id="606b3" class="javax.swing.JTextField" binding="txtName">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0" ipadx="100"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="f9843" class="javax.swing.JTextField" binding="txtSLineAddress">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="5f0b2" class="javax.swing.JTextField" binding="txtPostcode">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="1ad50" class="javax.swing.JTextField" binding="txtContact">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="8398a" class="javax.swing.JTextField" binding="txtFLineAddress">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="5c4b3" class="javax.swing.JButton" binding="btnAdd">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Add Supplier"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

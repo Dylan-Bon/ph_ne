@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="iText7">
+    <CLASSES>
+      <root url="jar://F:/Downloads/iText7 Jars/io-7.1.11.jar!/" />
+      <root url="jar://F:/Downloads/iText7 Jars/kernel-7.1.11.jar!/" />
+      <root url="jar://F:/Downloads/iText7 Jars/layout-7.1.11.jar!/" />
+      <root url="jar://F:/Downloads/iText7 Jars/forms-7.1.11.jar!/" />
+      <root url="jar://F:/Downloads/iText7 Jars/pdftest-7.1.11.jar!/" />
+      <root url="jar://F:/Downloads/iText7 Jars/svg-7.1.11.jar!/" />
+      <root url="jar://F:/Downloads/slf4j-log4j12-1.7.9.jar!/" />
+      <root url="jar://F:/Downloads/slf4j-simple-1.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,16 @@
+Samsung Galaxy A10	130	Capture clear photos, in any light. Watch, play and browse more on the 6.2 inch HD+ display.	PhonesHub	null	2	4
+Samsung Galaxy S10	750	Last years base flagship model, great power at a respectable price.	PhonesHub	null	3	13
+Huawei P30	380	Take your photography to the next level with the P30’s triple camera & 6.1 inch display.	PhonesHub	null	4	0
+Huawei Mate 20 X 5G	505	The Huawei Mate 20 X 5G lets you do more of the things you love, with a huge 7.2 inch screen and a powerful battery.	PhonesHub	null	5	22
+Huawei P Smart 2019	140	Take impressive snaps, with the Huawei P Smart's dual rear cameras and built in AI.	PhonesHub	null	6	13
+Apple iPhone 11 Pro Max	1199	Shoot videos with the Ultra Wide, Wide and Telephoto cameras. And watch HDR content on the 6.5-inch Super Retina XDR display.	PhonesHub	null	7	80
+Apple iPhone 11	699	Shoot 4K videos, beautiful portraits and sweeping landscapes with the dual-camera system. And see true-to-life colour on the 6.1-inch display.	PhonesHub	null	8	31
+Apple iPhone XS Max	1099	A custom OLED display delivering the most accurate colour in the industry, HDR, and true blacks.	PhonesHub	null	9	30
+Apple iPhone 8	499	An older generation of iPhone that still holds up today. Spouting a classic design and a 4.7 inch Retina HD display.	PhonesHub	null	10	10
+Apple iPhone XR	599	Last generations go-to iPhone for those looking for top performance at an affordable level.	PhonesHub	null	11	17
+Google Pixel 4XL	849	Point and snap magic by Google.	Google	null	12	6
+Google Pixel 4	689	Snap and shoot magic by Google.	Google	null	13	6
+Samsung Galaxy S20 Ultra	1199	Top specs & top performance, unbeatable.	Samsung	null	14	15
+iPhone SE	419	A retake on an old favourite.	PhonesHub	null	15	37
+Samsung Galaxy S10 Lite	579	Why pay double for a phone that is slightly better?	Samsung	null	16	24
+Sony Xperia Z1	549	Sony phone	Sony	null	17	24

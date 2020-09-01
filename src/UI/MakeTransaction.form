@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="UI.MakeTransaction">
+  <grid id="27dc6" binding="panelMakeTransaction" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="742" height="522"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="517ac" binding="topBar" layout-manager="BorderLayout" hgap="0" vgap="20">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="fe640" class="javax.swing.JLabel" binding="lblIcon">
+            <constraints border-constraint="West"/>
+            <properties>
+              <icon value="Interface/Img/logo light.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="c6b9" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="East"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="2b765" class="javax.swing.JButton" binding="btnCart">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <borderPainted value="true"/>
+                  <enabled value="true"/>
+                  <hideActionText value="false"/>
+                  <icon value="Interface/Img/Icons/Cart - Black.png"/>
+                  <opaque value="true"/>
+                  <text value=""/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+              <component id="6beca" class="javax.swing.JButton" binding="btnLayout">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <icon value="Interface/Img/Icons/eye.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="9d84a" class="javax.swing.JButton" binding="btnHome">
+                <constraints border-constraint="East"/>
+                <properties>
+                  <icon value="Interface/Img/Icons/Home - Black.png"/>
+                  <opaque value="true"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <vspacer id="31305">
+            <constraints border-constraint="South"/>
+          </vspacer>
+        </children>
+      </grid>
+      <grid id="a4a30" binding="CustomerDetails" layout-manager="GridBagLayout">
+        <constraints border-constraint="West"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="35da5" class="javax.swing.JLabel" binding="lblFirstName">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="5" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="First Name:"/>
+            </properties>
+          </component>
+          <component id="22fdf" class="javax.swing.JTextField" binding="txtFirstName">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag top="0" left="2" bottom="2" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <editable value="true"/>
+              <enabled value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="ce93c" class="javax.swing.JLabel" binding="lblSurname">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="5" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Last Name:"/>
+            </properties>
+          </component>
+          <component id="584be" class="javax.swing.JLabel" binding="lblFLineAddress">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="5" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="First Line of Address:"/>
+            </properties>
+          </component>
+          <component id="479bb" class="javax.swing.JLabel" binding="lblSLineAddress">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="5" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Second Line of Address:"/>
+            </properties>
+          </component>
+          <component id="ce777" class="javax.swing.JLabel" binding="lblNewCustomer">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="2" bottom="2" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="New Customer"/>
+            </properties>
+          </component>
+          <component id="adc58" class="javax.swing.JLabel" binding="lblPostcode">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="5" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Postcode:"/>
+            </properties>
+          </component>
+          <component id="2f757" class="javax.swing.JLabel" binding="lblContactNumber">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="5" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Contact Number:"/>
+            </properties>
+          </component>
+          <component id="a60b5" class="javax.swing.JTextField" binding="txtContactNumber">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag top="0" left="2" bottom="2" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="a0e63" class="javax.swing.JLabel" binding="lblExistingCustomer">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="2" bottom="2" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Existing Customer"/>
+            </properties>
+          </component>
+          <component id="3504" class="javax.swing.JLabel" binding="lblExContactNumber">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="5" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Contact Number:"/>
+            </properties>
+          </component>
+          <component id="584ce" class="javax.swing.JComboBox" binding="cmbExContactNumber">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="2" bottom="2" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="d269a" class="javax.swing.JTextField" binding="txtLastName">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag top="0" left="2" bottom="2" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="94915" class="javax.swing.JTextField" binding="txtFLineAddress">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag top="0" left="2" bottom="2" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="18894" class="javax.swing.JTextField" binding="txtSLineAddress">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag top="0" left="2" bottom="2" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="4cf8e" class="javax.swing.JTextField" binding="txtPostcode">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag top="0" left="2" bottom="2" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <grid id="1833e" binding="shop" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="546c5" binding="filters" layout-manager="GridBagLayout">
+            <constraints border-constraint="North"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="681ed" class="javax.swing.JButton" binding="btnPhones">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Phones"/>
+                </properties>
+              </component>
+              <component id="20a88" class="javax.swing.JButton" binding="btnCases">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Cases"/>
+                </properties>
+              </component>
+              <component id="2748f" class="javax.swing.JButton" binding="btnAccessories">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Accessories"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <scrollpane id="8be52" binding="scrollWindow">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <verticalScrollBarPolicy value="22"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="bd0e6" binding="scrollContent" layout-manager="GridBagLayout">
+                <constraints/>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

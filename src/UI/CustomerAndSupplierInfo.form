@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="UI.CustomerAndSupplierInfo">
+  <grid id="27dc6" binding="cAndSPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="c7b23" binding="topBar" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="9f1ea" class="javax.swing.JLabel" binding="lblIcon">
+            <constraints border-constraint="West"/>
+            <properties>
+              <icon value="Interface/Img/logo light.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="39658" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="East"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="e5642" class="javax.swing.JButton" binding="btnLayout">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <icon value="Interface/Img/Icons/eye.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="dc693" class="javax.swing.JButton" binding="btnHome">
+                <constraints border-constraint="East"/>
+                <properties>
+                  <icon value="Interface/Img/Icons/Home - Black.png"/>
+                  <opaque value="true"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="348da" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="3f9a6" layout-manager="BorderLayout" hgap="0" vgap="20">
+            <constraints border-constraint="North"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="cdbae" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="West"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="5317a" class="javax.swing.JComboBox" binding="cmbCustSupp">
+                    <constraints border-constraint="Center"/>
+                    <properties/>
+                  </component>
+                </children>
+              </grid>
+              <grid id="1cb3e" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="East"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="50df8" class="javax.swing.JButton" binding="btnEditDetails">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <text value="Edit Details"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <vspacer id="2330d">
+                <constraints border-constraint="North"/>
+              </vspacer>
+            </children>
+          </grid>
+          <scrollpane id="32dad" binding="scrlCustSupp">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="56a04" class="javax.swing.JTable" binding="tblCustSupp">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

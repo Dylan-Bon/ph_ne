@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="UI.StockReport">
+  <grid id="27dc6" binding="stockReportPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="570" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="e487d" binding="topBar" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="9f7e9" class="javax.swing.JLabel" binding="lblIcon">
+            <constraints border-constraint="West"/>
+            <properties>
+              <icon value="Interface/Img/logo light.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="3daba" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="East"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="1f10f" class="javax.swing.JButton" binding="btnBack">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <borderPainted value="true"/>
+                  <enabled value="true"/>
+                  <hideActionText value="false"/>
+                  <icon value="Interface/Img/Icons/BackScaled.png"/>
+                  <opaque value="true"/>
+                  <text value=""/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+              <component id="bcb6d" class="javax.swing.JButton" binding="btnLayout">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <icon value="Interface/Img/Icons/eye.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="4f39a" class="javax.swing.JButton" binding="btnHome">
+                <constraints border-constraint="East"/>
+                <properties>
+                  <icon value="Interface/Img/Icons/Home - Black.png"/>
+                  <opaque value="true"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="df16f" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="8f309" layout-manager="GridBagLayout">
+            <constraints border-constraint="North"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="b3840" class="javax.swing.JButton" binding="btnFilterStock">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Show Only Low Stock"/>
+                </properties>
+              </component>
+              <hspacer id="b57be">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+              </hspacer>
+              <vspacer id="5ce25">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+              </vspacer>
+              <component id="fb1bf" class="javax.swing.JButton" binding="btnExport">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Export To PDF"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <scrollpane id="874b6" binding="scrlStockTable">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="46a80" class="javax.swing.JTable" binding="tblStock">
+                <constraints/>
+                <properties>
+                  <enabled value="false"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

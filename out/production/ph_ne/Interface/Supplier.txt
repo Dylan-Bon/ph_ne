@@ -1,0 +1,4 @@
+PhonesHub	01324 678953	Kamley Business Park	Falkirk	FK9 6RH	1
+Google	01324667201	33 SpyOnU Street	London	E1 8BZ	2
+Samsung	07281475002	123 Korea Street	London	E2 4LP	3
+Sony	01324887013	7 example street	London	L1 4HR	4

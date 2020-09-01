@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="UI.CustomerSalesReport">
+  <grid id="27dc6" binding="customerSalesReportPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="585" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="a0060" binding="topBar" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="86d3c" class="javax.swing.JLabel" binding="lblIcon">
+            <constraints border-constraint="West"/>
+            <properties>
+              <icon value="Interface/Img/logo light.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="96798" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="East"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="49c59" class="javax.swing.JButton" binding="btnBack">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <borderPainted value="true"/>
+                  <enabled value="true"/>
+                  <hideActionText value="false"/>
+                  <icon value="Interface/Img/Icons/BackScaled.png"/>
+                  <opaque value="true"/>
+                  <text value=""/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+              <component id="f9dc9" class="javax.swing.JButton" binding="btnLayout">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <icon value="Interface/Img/Icons/eye.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="e928a" class="javax.swing.JButton" binding="btnHome">
+                <constraints border-constraint="East"/>
+                <properties>
+                  <icon value="Interface/Img/Icons/Home - Black.png"/>
+                  <opaque value="true"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="bca12" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="2995e" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="North"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="94296" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints border-constraint="South"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="ceea4" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <text value="Customer Name: "/>
+                    </properties>
+                  </component>
+                  <component id="4843b" class="javax.swing.JLabel" binding="lblName">
+                    <constraints/>
+                    <properties>
+                      <text value="NAME-HERE-BLEEP"/>
+                    </properties>
+                  </component>
+                  <component id="53a8b" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <text value="Contact Number: "/>
+                    </properties>
+                  </component>
+                  <component id="380d7" class="javax.swing.JLabel" binding="lblNumber">
+                    <constraints/>
+                    <properties>
+                      <text value="NUMBER-HERE"/>
+                    </properties>
+                  </component>
+                  <component id="38aaf" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <text value="Customer ID#: "/>
+                    </properties>
+                  </component>
+                  <component id="6ac8f" class="javax.swing.JLabel" binding="lblId">
+                    <constraints/>
+                    <properties>
+                      <text value="#ID"/>
+                    </properties>
+                  </component>
+                  <component id="2784e" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <text value="Month: "/>
+                    </properties>
+                  </component>
+                  <component id="3a147" class="javax.swing.JLabel" binding="lblMonth">
+                    <constraints/>
+                    <properties>
+                      <text value="Label"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="a77c9" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints border-constraint="North"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="976c9" class="javax.swing.JComboBox" binding="cmbCustomerId">
+                    <constraints/>
+                    <properties>
+                      <toolTipText value="Select Customer ID"/>
+                    </properties>
+                  </component>
+                  <component id="a34a7" class="javax.swing.JComboBox" binding="cmbTimeframe">
+                    <constraints/>
+                    <properties>
+                      <toolTipText value="Select report timeframe"/>
+                    </properties>
+                  </component>
+                  <component id="f47ef" class="javax.swing.JComboBox" binding="cmbMonth">
+                    <constraints/>
+                    <properties>
+                      <toolTipText value="Select month - only useable if timeframe is monthly"/>
+                    </properties>
+                  </component>
+                  <component id="88d05" class="javax.swing.JComboBox" binding="cmbYear">
+                    <constraints/>
+                    <properties>
+                      <toolTipText value="Select year"/>
+                    </properties>
+                  </component>
+                  <component id="3512" class="javax.swing.JButton" binding="btnSearch">
+                    <constraints/>
+                    <properties>
+                      <text value="Search"/>
+                    </properties>
+                  </component>
+                  <component id="87dba" class="javax.swing.JButton" binding="btnExport">
+                    <constraints/>
+                    <properties>
+                      <text value="Export To PDF"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <scrollpane id="b4d4" binding="scrlCustSalesReport">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="3c279" class="javax.swing.JTable" binding="tblCustSalesReport">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
