@@ -1,3 +1,6 @@
+A stock ordering/management system that produces invoices upon a new 'sale'. 
+This was developed as a project during the second year of my studies.
+
 ==================================================================
 ====**********************************************************====
 ====**	DO NOT REMOVE, RENAME OR RELOCATE ANY FILES.	    **====	
