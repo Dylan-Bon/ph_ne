@@ -1,9 +1,10 @@
 A stock ordering/management system that produces invoices upon a new 'sale'. 
 This was developed as a project during the second year of my studies.
+The project is unfinished due to being developed alongside other modules and to a strict time constraint. 
 
 ==================================================================
 ====**********************************************************====
-====**	DO NOT REMOVE, RENAME OR RELOCATE ANY FILES.	    **====	
+====***	   DO NOT REMOVE, RENAME OR RELOCATE ANY FILES.	   ***====	
 ====**THE SYSTEM IS DEPENDANT ON THE CURRENT FILE STRUCTURE **====
 ====**********************************************************====
 ==================================================================
