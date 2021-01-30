@@ -1,4 +1,4 @@
-A stock ordering/management system that produces invoices upon a new 'sale'. 
+A stock ordering/management system that produces invoices upon a new 'sale'. Utilises Swing (GUI) and iText library (exporting stock report to PDF).
 This was developed for my Graded Unit 2 project during the second year of my studies.
 The project is unfinished due to being developed alongside other modules and to a strict time constraint. 
 
