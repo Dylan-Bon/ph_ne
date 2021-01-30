@@ -1,5 +1,5 @@
 A stock ordering/management system that produces invoices upon a new 'sale'. 
-This was developed as a project during the second year of my studies.
+This was developed for my Graded Unit 2 project during the second year of my studies.
 The project is unfinished due to being developed alongside other modules and to a strict time constraint. 
 
 ==================================================================
