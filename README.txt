@@ -9,5 +9,5 @@ The project is unfinished due to being developed alongside other modules and to 
 ====**********************************************************====
 ==================================================================
 
-Setup guide for current prototype build - https://youtu.be/g5ZZw28Vpps
+Setup guide for current prototype build - https://youtu.be/g5ZZw28Vpps (a bug caused by the GUI design plugin of IntelliJ means that the project cannot be launched another IDE)
 User guide for current prototype build - https://youtu.be/Wcp3EADJzI8
